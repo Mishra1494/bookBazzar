@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sell form</title>
+    <link rel="stylesheet" href="/homepage.css">
+</head>
+<body>
+    <header>
+        <div class="logo headdiv">
+            <h1>BOOK BAZAR</h1>
+        </div>
+        <div class="search headdiv" id="searchdiv">
+            
+               <h1>Sell your books here</h1>
+            
+        </div>
+        <div class="buttns">
+            <div class="headdiv">
+                <form method="get" action="/home"><button>home</button></form>
+            </div>
+            <div class="headdiv">
+                <form method="get" action="/sellform"><button>Sell</button></form>
+            </div>
+            <div class="headdiv">
+                <form method="get" action="/yourprofile"><button>Your Profile</button></form>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="sellbox">
+            <form method="post" action="/submit">
+                <div>
+                    <input placeholder="enter your book name" name="bookname">
+                </div>
+                <div>
+                    <input palceholder="enter ypur book author name" name="authorname">
+                </div>
+                <div>
+                    <input placeholde="enter your booktype" name="booktype">
+                </div>
+               
+                <button>sell</button>
+                
+             </form>
+        </div>
+        
+    </section>
+</body>
+</html>
