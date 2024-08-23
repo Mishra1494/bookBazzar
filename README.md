@@ -1,1 +1,41 @@
 # bookBazzar
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homepage.css">
+    <title>BOOK BAZZAR3333</title>
+</head>
+<body>
+    <header>
+        <div class="logo headdiv">
+            <h1>BOOK BAZAR</h1>
+        </div>
+        <div class="search headdiv" id="searchdiv">
+            <form method="post" action="/searchresult">
+                <input placeholder="Search books here" name="searched" class="searchbox" />
+                <button>Search</button>
+            </form>
+        </div>
+        <div class="buttns">
+            <div class="headdiv">
+                <form method="get" action="/home"><button>home</button></form>
+            </div>
+            <div class="headdiv">
+                <form method="get" action="/sellform"><button>Sell</button></form>
+            </div>
+            <div class="headdiv">
+                <form method="get" action="/yourprofile"><button>Your Profile</button></form>
+            </div>
+        </div>
+        
+    </header>
+    <section>
+       
+    </section>
+    <footer>
+      
+    </footer>
+</body>
+</html>
